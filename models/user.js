@@ -38,15 +38,15 @@ module.exports = function(sequelize, DataTypes) {
       defaultValue: 0
     },
     orange: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       defaultValue: 0
     },
     red: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       defaultValue: 0
     },
     white: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       defaultValue: 0
     }
   });
