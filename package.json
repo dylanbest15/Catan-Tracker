@@ -1,0 +1,36 @@
+{
+  "name": "catan-tracker",
+  "version": "1.0.0",
+  "description": "Settlers of Catan",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanbest15/Catan-Tracker.git"
+  },
+  "keywords": [
+    "Settlers",
+    "Catan",
+    "Tracker"
+  ],
+  "author": "Dylan Best",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylanbest15/Catan-Tracker/issues"
+  },
+  "homepage": "https://github.com/dylanbest15/Catan-Tracker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.5"
+  }
+}
